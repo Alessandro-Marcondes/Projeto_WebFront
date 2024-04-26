@@ -306,42 +306,14 @@ footer .info_icon img {
     height: 50px;
 }
 
-footer .box {
-    display: flex;
-    
-    width: 80%;
-}
-
-footer .box_info {
-    padding: 50px 100px ;
-}
-
-
-footer .box_info .social_media {
-    padding-top: 30px;
-}
-
-footer .box_info .social_media a {
-    padding: 0px 10px;
-}
-
-
-footer .box .link_info{
+.grid{
     display: grid;
-    grid-template-columns: 40px 40px;
-    column-gap: 80px;
-    row-gap: 10px;
-    list-style: none;
+    grid-template-columns: 40% 20% 30%;
+    padding: 60px 80px;
 }
 
-footer .link_info li a{
-text-decoration: none;
-color: var(--cinza-claro);
-}
 
-footer .subscribe{
-    
-}
+
 
 .button {
     padding: 13px 45px;
