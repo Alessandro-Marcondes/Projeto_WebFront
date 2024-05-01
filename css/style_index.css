@@ -60,7 +60,6 @@ header {
     padding: 5px 30px;
     border-radius: 0px;
     background-color: var(--cinza-main);
-    border-color: 2px transparent;
 }
 
 .nav_links .button:hover {
@@ -79,17 +78,17 @@ body {
     height: 100vh;
     background-color: var(--cinza-claro);
     display: grid;
-    color: var(--cinza-escuro);
     font-size: 18px;
 }
 
 .content {
-    margin: 10% 10%;
-    padding: 0px 15px;
+    margin: 0 10%;
+    padding: 10% 15px;
 }
 
 
 .hero_section {
+    padding-top: 10%;
     background-image: linear-gradient(to bottom, transparent 0%, #161f28 100%), url('/public/img/matt-howard-eAKDzK4lo4o-unsplash.jpg');
     background-size: cover;
     background-position-y: bottom, 100%;
@@ -132,7 +131,6 @@ body {
 }
 
 .first_section {
-
     margin-top: -100px;
     max-height: 100%;
     background-color: #161f28;
@@ -305,7 +303,7 @@ body {
 
 .third_section .grid {
     display: grid;
-    grid-template-columns: repeat(1, 1500px);
+    grid-template-columns: repeat(1, 1200px);
     grid-template-rows: minmax(200px, auto);
     gap: 50px 0;
     padding-top: 50px;
@@ -323,8 +321,6 @@ body {
 
 .third_section .grid_item {
     display: flex;
-    color: var(--cinza-escuro);
-    min-height: 300px;
     border-bottom: 2px solid var(--cinza-main);
     padding-bottom: 50px;
 
@@ -385,9 +381,7 @@ body {
     filter: brightness(0) saturate(100%) invert(55%) sepia(100%) saturate(400%) hue-rotate(358deg) brightness(103%) contrast(84%);
 }
 
-.third_section .grid_content details ul {
-    list-style-type: color red;
-}
+
 
 .third_section .grid_content details ul li {
     margin-left: 20px;
@@ -453,7 +447,7 @@ footer .grid .grid_1 {
     padding-right: 50px;
 }
 
-footer .link_info {
+footer .link_info ul{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -475,8 +469,17 @@ footer .link_info a:hover {
     color: var(--amarelo-main);
 }
 
-input {
-    width: 100%;
+footer form{
+    display: flex;
+}
+
+footer .button_transparent{
+    border-radius: 0;
+    padding: 10px;
+}
+
+footer input {
+    width: 80%;
     padding: 12px 0px;
     border: 0;
     margin: 5px 0px;
@@ -511,6 +514,7 @@ input {
 .button_transparent {
     border-color: white;
     color: white;
+    background-color: transparent;
 }
 
 .button_transparent:hover {
