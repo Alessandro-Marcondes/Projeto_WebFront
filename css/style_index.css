@@ -89,7 +89,7 @@ body {
 
 .hero_section {
     padding-top: 10%;
-    background-image: linear-gradient(to bottom, transparent 0%, #161f28 100%), url('public/img/matt-howard-eAKDzK4lo4o-unsplash.jpg');
+    background-image: linear-gradient(to bottom, transparent 0%, #161f28 100%), url('../public/img/matt-howard-eAKDzK4lo4o-unsplash.jpg');
     background-size: cover;
     background-position-y: bottom, 100%;
     max-height: 90%;
