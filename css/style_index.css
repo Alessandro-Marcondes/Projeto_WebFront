@@ -89,7 +89,7 @@ body {
 
 .hero_section {
     padding-top: 10%;
-    background-image: linear-gradient(to bottom, transparent 0%, #161f28 100%), url('/public/img/matt-howard-eAKDzK4lo4o-unsplash.jpg');
+    background-image: linear-gradient(to bottom, transparent 0%, #161f28 100%), url('../public/img/matt-howard-eAKDzK4lo4o-unsplash.jpg');
     background-size: cover;
     background-position-y: bottom, 100%;
     max-height: 90%;
@@ -198,7 +198,7 @@ body {
     margin-top: -100px;
     padding: 0px;
     padding: 100px 15px;
-    background-image: linear-gradient(to top, var(--cinza-claro) 0%, transparent 60%), linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #161f28 100%), url('/public/img/annie-spratt-O_Lyb6Et9Hw-unsplash.jpg');
+    background-image: linear-gradient(to top, var(--cinza-claro) 0%, transparent 60%), linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #161f28 100%), url('../public/img/annie-spratt-O_Lyb6Et9Hw-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
