@@ -358,7 +358,7 @@ body {
     all: unset;
     cursor: pointer;
     padding-top: 50px;
-    background-image: url(/public/icon/-keyboard-arrow-down_90691.svg);
+    background-image: url('../public/icon/-keyboard-arrow-down_90691.svg');
     background-repeat: no-repeat;
     background-position: 0px 95%;
     background-size: 20px;
