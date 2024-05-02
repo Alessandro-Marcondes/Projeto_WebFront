@@ -2,7 +2,7 @@
 Autor: Alessandro Marcondes Maciel Silva
 
 ## Informações gerais
-O projeto visa contribuir com a ODS13, com a criação de um site para conscientização e orientação sobre o aquecimento global
+O projeto visa contribuir com a ODS13, com a criação de um site para conscientização e orientação sobre práticas para combater o aquecimento global
 
 ## Tecnologias
 * HTML5
